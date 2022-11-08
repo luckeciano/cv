@@ -17,8 +17,29 @@
         <<detail>> \par
     ~< endfor >~
   ~< endif >~
+
+
+
+  ~< if school.course >~
+    \textbf{<< school.course >>}
+    
+    ~< for course in school.course_list >~
+      {\scriptsize \color{gray}{<< course >>} \par}
+    ~< endfor >~
+  ~< endif >~
+
   \vspace{3mm}
 ~< endfor >~
 % \end{itemize}
 \vspace{-3mm}
 ~< endblock body >~
+
+
+% ~< for award in items >~
+%   << award.title >> \hfill << award['year'] >>
+%   ~< if award.descr >~
+%     \\ {\scriptsize \color{gray}{<< award.descr >>} \par}
+%   ~< else >~
+%     \par
+%   ~< endif >~
+% ~< endfor >~

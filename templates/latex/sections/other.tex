@@ -1,0 +1,23 @@
+~< extends "section.tex" >~
+
+~< block body >~
+% \vspace{-2mm}
+% \begin{itemize}
+~< for other in items >~
+    % \item 
+  ~< if other.title >~
+    \textbf{<< other.title>>}
+    \hfill << other.dates >> \par
+  ~< endif >~
+  ~< if other.details >~
+    \begin{itemize}
+    ~< for detail in other.details ->~
+        \item[\textbullet]{<<detail>>}
+    ~< endfor >~
+    \end{itemize}
+  ~< endif >~
+  \vspace{3mm}
+~< endfor >~
+% \end{itemize}
+\vspace{-3mm}
+~< endblock body >~

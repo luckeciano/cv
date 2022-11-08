@@ -1,17 +1,17 @@
 name:
-  first: Nathan
-  last: Lambert
+  first: Luckeciano
+  last: Melo
 # phone: ~(540)~947~1238
-email: nathan@natolambert.com
+email: luckeciano@gmail.com
 pdf: /data/cv.pdf
-src: https://github.com/natolambert/cv
-url: "natolambert.com"
+src: https://github.com/luckeciano/cv
+url: "luckeciano.github.io"
 social:
-  github: natolambert
-  twitter: natolambert
-  linkedin: natolambert
-  google_scholar: O4jW7BsAAAAJ
-  semantic_scholar: 2052363815
+  github: luckeciano
+  twitter: LuckecianoMelo
+  linkedin: luckeciano-melo
+  google_scholar: b2aBi8UAAAAJ
+  semantic_scholar: 152671543
 # TBD what is my Erdős  number .
 # (Nathan Lambert -> ?  -> Paul Erdős )
 
@@ -28,160 +28,199 @@ order:
   # - [news, News]
   - [education, Education]
   - [industry, Industry Experience]
+  - [skills, Relevant Technical Skills]
   - [honors, Honors \& Awards]
   - [all_publications, Publications]
   - [repos, Repositories]
   # - [NEWPAGE, NEWPAGE]
   - [talks, Invited Talks]
-  - [advising, Mentorship]
   - [reviewing, Peer Review]
   - [service, Professional Activities]
-  - [teaching, Teaching]
+  - [other, Other Academic and Research Experiences]
+  # - [teaching, Teaching]
   - [extracur, Extracurriculars]
 
 about: '\vspace{18pt} \small{
-  I research \textbf{data-driven decision making},
-  including progressing \textbf{model-based reinforcmement learning} algorithms,
-  applying them to real-world problems such as \textbf{robotics}, and planning for the \textbf{societal implications}
-  of these technologies.}
+  I am a professional with a mixed background in research and engineering. In recent years, my main work applied Deep Learning and Reinforcement Learning algorithms 
+  for real-world scenarios at scale. My research curiosity is to \textbf{develop agents that learn behaviors through interaction, in an efficient, generalist, and adaptive way}.
+  I believe that we can achieve this with \textbf{meaningful semantic representations} and \textbf{world models}, aligned with \textbf{inductive biases on high-level cognition}. 
+  }
 '
+
+other:
+  - title: ITAndroids (ITA Robotics Research Lab)
+    dates: 2015 -- 2019
+    details: 
+      - "Worked on Soccer 3D strategy. Worked on build up the C++ base code team in the first year. Developed algorithms to Path Planning, Robot`s Active Vision and Positioning/Marking System." 
+      - Taught fresh students in Software Engineering
+      - Developed humanoid robot skills for RoboCup 3D Soccer Simulation environment, using Deep Reinforcement Learning, Imitation Learning, Meta-Learning and Evolution Strategies
+  - title: Undergraduate Research Mentor | ITA
+    dates: 2018
+    details: 
+      - Mentored a student in a research project to develop policies for multi-agent positioning using imitation learning from human feedback.
+  - title: Teaching Assistant (Instructor)
+    dates: 2018
+    details:
+      - "Taught Deep Learning for graduate students in a course called CT-221: Neural Networks"
+  - title: Software Engineering Research Group (ITA)
+    dates: 2017
+    details:
+      - "Worked using Deep Learning for Facial Recognition in Biometric systems, replacing an Eigenfaces` solution with CNNs, improving Identification Rate from 40\\% to 90\\%"
+      - Worked in feature engineering for credit card anti-fraud systems
+  - title: Undergraduate Research at Software Engineering Research Group (ITA)
+    dates: 2014 -- 2016
+    details:
+      - "Worked on Software Engineering research for agile methodologies."
+
 
 reviewing:
   - details: Conference on Machine Learning (ICML)
-    year: 2020, 2022 (3)
-    sub_details: "(count is 1 unless labelled)"
-  - details: Conference on Neural Information Processing Systems (NeurIPs)
-    year: 2022 (2)
-  - details: Conference on Learning Representations (ICLR)
-    year: 2021* (3), 2022 (3)
-    sub_details: "(*Outstanding Reviewer)"
-  - details: Conference on Robot Learning (CORL)
-    year: 2020
-  - details: Conference on Robotics and Automation (ICRA)
-    year: 2020, 2021, 2022 (2)
-  - details: Conference on Intelligent Robots and Systems (IROS)
-    year: 2021, 2022 (2)
-  - details: Robotics - Science and Systems (RSS)
     year: 2022
-  - details: Conference on Decision and Control (CDC)
-    year: 2021
-  - details: Robotics and Automation Letters (RA-L)
-    year: 2019, 2020
-  - details: Transactions on Cybernetics
-    year: 2019, 2020
+    # sub_details: "(count is 1 unless labelled)"
+  - details: Conference on Neural Information Processing Systems (NeurIPS)
+    year: 2022
+  - details: Conference on Learning Representations (ICLR)
+    year: 2022*
+    sub_details: "(*Outstanding Reviewer)"
 
 service:
-  - details: Member of Well-Being in Machine Learning
-    year: 2021 -- cont.
-    url: https://twitter.com/WellBeingInML
-  - details: RLDM Workshop on Building Accountable and Transparent RL Organizer
-    year: 2022
-    url: https://rewardreports.github.io/workshop.html
-  - details: Berkeley AI Research Audio \& Video Team
-    year: 2021 -- 2022
-    #    url: https://twitter.com/WellBeingInML
-  - details: NeurIPs Workshop on Robot Learning Organizor
-    year: 2021 -- 2022
-    url: http://robot-learning.ml
-  - details: Tapia Panel on Student Mental Health Organizor
+  - details: Program Committee -- NeurIPS Offline Reinforcement Learning Workshop
     year: 2021
-    url: https://tapiaconference.cmd-it.org/attend/presentation/?id=acad115&sess=sess251
-  - details: Founder of UC Berkeley EECS Equal Access to Application Assistance (EAAA) Program
-    url: https://sites.google.com/berkeley.edu/eaaa/home
-    year: 2020 -- 2022
-  - details: Wellness Coordinator for UC Berkeley Electrical Engineering Graduate Student Assembly (EEGSA)
-    year: 2020 -- 2022
-  - details: Bay Area Teachers in Schools
-    year: 2017
+    url: https://offline-rl-neurips.github.io/2021
+
 
 repos:
-#  - repo_url: https://github.com/facebookresearch/theseus
-#    year: 2022
-#    desc: Differentiable non-linear optimization library
-  - repo_url: https://github.com/huggingface/diffusers
+  - repo_url: https://github.com/luckeciano/transformers-metarl
     year: 2022
-    desc: Diffusion models library
-  - repo_url: https://github.com/facebookresearch/mbrl-lib
+    desc: Transformers are Meta-Reinforcement Learners (ICML 2022)
+  - repo_url: https://github.com/dlb-rl/pulse-rl
     year: 2021
-    desc: Model-based reinforcement learning library
-  - repo_url: https://github.com/natolambert/dynamicslearn
+    desc: PulseRL -- Enabling Offline Reinforcement Learning for Digital Marketing Systems via Conservative Q-Learning.
+  - repo_url: https://github.com/deeplearningbrasil/mars-gym
     year: 2020
-    desc: Model-based RL for mixed sim. and real
+    desc: MARS-Gym -- a benchmark framework for modeling, training, and evaluating RL-based recommender systems for marketplaces.
+  - repo_url: https://github.com/marlesson/meta-bandit-selector
+    year: 2020
+    desc: Contextual Meta-Bandit for Recommender Systems Selection
 
 
 education:
-  - school: University of California, Berkeley
-    location: Berkeley, CA
-    degree: Ph.D. in Electrical Engineering and Computer Science
-    dates: 2017 -- 2022
-    # dates: May 2019
-    overallGPA: 4.0/4.0
+  - school: Aeronautics Institute of Technology (ITA)
+    location: SP, Brazil
+    degree: MSc. in EECS
+    dates: 2017 -- 2019
+    overallGPA: 3.73/4.00
     details:
-      - "\\textit{\\href{https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-65.html}{Synergy of Prediction and Control in Model-based Reinforcement Learning}}"
-      - "Advisors: \\href{http://www.eecs.berkeley.edu/~pister/}{Kristofer S.J. Pister},  \\href{https://www.robertocalandra.com/about/}{Roberto Calandra}"
-      - "Committee: \\href{https://people.eecs.berkeley.edu/~svlevine/}{Sergey Levine},  \\href{https://people.eecs.berkeley.edu/~tomlin/}{Claire Tomlin}"
+      - "Thesis: Imitation Learning and Meta-Learning for Optimizing Humanoid Robot Motions"
+      - "Best Master's Dissertation in Brazilian AI Awards 2019 (DATA-H)"
+      - "Winner of the V Best MSc Dissertation and PhD Thesis Contest in Robotics (Brazilian Robotics Society)"
 
 
-  - school: Cornell University
-    location: Ithaca, NY
-    degree: B.S. in Electrical and Computer Engineering
-    dates: 2013 -- 2017
-    # dates: May 2014
-    overallGPA: 4.0/4.0
+  - school: Aeronautics Institute of Technology (ITA)
+    location: SP, Brazil
+    degree: BSc. in Computer Engineering
+    dates: 2014 -- 2018
+    overallGPA: 3.51/4.00
+    details:
+      - "Acceptance Rate: 2.3\\%"
+      - "Thesis: A Deep Reinforcement Learning Method for Humanoid Kick"
+      - Computer Engineering Best Thesis Award
+      - "Honors in Software Engineering in undergraduate and graduate departments"
+
+  - course: Other Relevant Courses
+    course_list:
+      - Machine Learning (Stanford, Coursera), Deep Learning Specialization (deeplearning.ai), NLP Specialization (deeplearning.ai),
+        RL Course (UCL, online), Deep Reinforcement Learning (CS 285, UC Berkeley, online), Multi-Task and Meta-Learning (CS 330, Stanford, online), Full Stack Deep Learning (online lectures)
 
 industry:
-  - place: HuggingFace
-    location: Remote |
+  - place: Microsoft
+    location: Seattle, WA
+    role: "Applied Scientist | Bing Search |"
 #    title: Research Intern
-    dates: 2022
+    dates: 2021 -- Present
     # dates: June 2018 -- Sept 2018
     details:
-      - "Research Scientist"
-  - place: DeepMind
-    location: London (\textit{Virtual}) |
+      - "Works with Multi-Modal Representation Learning for Web Data Semantic Understanding"
+      - "Leading efforts to scale HTML-based deep learning models to 400 billion documents"
+      - "Responsibilities: Data Engineering, Data Analysis and Feature Engineering, Model Development, Deployment and Monitoring"
+  - place: Microsoft
+    location: Vancouver, BC
+    dates: 2020 -- 2021
+    role: "Software Engineer | Data and Integration Services for D365 |"
+    details:
+      - "Worked building up a microservices-based infrastructure to enable data transfer and processing from SQL databases to Azure Data Lake at scale"
+      - "Comprises delivering high quality, scalable code for asynchronous, distributed, and multi-threaded applications in the context of SaaS in the cloud"
+      - "Other responsibilities: architectural discussions, code reviews, cluster and CI/CD pipelines management, livesite"
+  - place: Deep Learning Brazil Research Lab
+    location: Remote, Part-Time
+    role: Head of RL Research |
 #    title: Research Intern
-    dates: 2021
+    dates: 2019 -- 2021
     # dates: June 2018 -- Sept 2018
     details:
-      - "Research Intern "
-      - "(Host: \\href{https://www.riedmiller.me}{Martin Riedmiller})"
-  - place: Facebook AI
-    location: Menlo Park |
+      - "DeepFood Project: Worked implementing Deep Learning and RL models for Recommender Systems for a major player in food delivery. 
+        Released an \\href{https://arxiv.org/abs/2010.07035}{open-source framework} to model, train, and evaluate RL agents for marketplaces, with automated off-policy and fairness evaluation.
+        Developed a \\href{https://dl.acm.org/doi/10.1145/3383313.3412209}{contextual meta-bandit} approach for model selection."
+      - "PulseRL project: Led a team of 3 student researchers to develop an offline RL agent (\\href{https://api.semanticscholar.org/CorpusID:249703190}{PulseRL}) based on the Conservative Q-Learning framework for Debt Collection. Deployed PulseRL in a production system to handle millions of users daily."
+      - "Responsibilities: RL Core Research, RL applications with industry partners, Manage/Supervise teams of graduate students"
+  - place: Amazon Web Services
+    location: Cape Town, South Africa 
+    role: Software Development Engineer Intern |
 #     title: Research Intern & Student Researcher
-    dates: 2019 -- 2020
+    dates: 2018
     # dates: May 2017 -- Oct 2017
     details:
-      - "Research Intern and Student Researcher "
-      - "(Host: \\href{https://www.robertocalandra.com/about/}{Roberto Calandra})"
-  - place: Tesla
-    location: Palo Alto
+      - "Worked at the EC2 Core Platform, in the Host Placement Team"
+      - "Developed a Continuous Deployment Pipeline for the instances metering service, based on several testing mechanisms to evaluate metering data"
+  - place: VTEX
+    location: Rio de Janeiro, Brazil
+    role: Software Engineer Intern |
     # title: Data Scientist Intern
-    dates: 2015
+    dates: 2018
     details:
-      - "Test Engineering Intern"
+      - "Developed several features for the platform infrastructure (logs and monitoring, caching, throttling systems), developed microservices and managed Kubernetes clusters."
+  
+  - place: Pearson Education
+    location: Sao Paulo, Brazil
+    role: Software Engineer Intern |
+    # title: Data Scientist Intern
+    dates: 2016
 
-teaching:
-  - semester: Su2020, Fa2020
-    name: Introduction to Artificial Intelligence
-    short: UCB CS188
-    position: TA
-  - semester: Sp2020
-    name: Introduction to Artificial Intelligence
-    short: UCB CS188
-    position: Instructor
-    details: lectured to 800+ students
-  - semester: Fa2019
-    name: Designing Information Devices and Systems II
-    short: UCB EE16B
-    position: TA
-  - semester: Sp2017
-    name: Integrated Micro Sensors and Actuators
-    short: Cornell ECE4320
-    position: Grader
-  - semester: Fa2016
-    name: Mathematics of Signal and System Analysis
-    short: Cornell ECE 3250
-    position: TA
+skills:
+  - title: Core Skills
+    details: Artificial Intelligence (Deep Learning / Reinforcement Learning), Software Engineering, Optimization, Robotics
+  - title: Research Areas
+    details: Reinforcement Learning (Offline RL, Meta-RL), Representation Learning
+  - title: Programming
+    details: "Python, C/C++; C\\# (.NET), Bash, SQL, Java, MATLAB"
+  - title: Frameworks
+    details: Pytorch, TF/Keras, numpy/matplotlib/pandas/sklearn, Azure/AWS/GCP, Kubernetes
+  - title: OS
+    details: Linux, Windows, MacOS
+
+
+# teaching:
+#   - semester: Su2020, Fa2020
+#     name: Introduction to Artificial Intelligence
+#     short: UCB CS188
+#     position: TA
+#   - semester: Sp2020
+#     name: Introduction to Artificial Intelligence
+#     short: UCB CS188
+#     position: Instructor
+#     details: lectured to 800+ students
+#   - semester: Fa2019
+#     name: Designing Information Devices and Systems II
+#     short: UCB EE16B
+#     position: TA
+#   - semester: Sp2017
+#     name: Integrated Micro Sensors and Actuators
+#     short: Cornell ECE4320
+#     position: Grader
+#   - semester: Fa2016
+#     name: Mathematics of Signal and System Analysis
+#     short: Cornell ECE 3250
+#     position: TA
 
 # selected_publications:
 #   name: "Amos"
@@ -191,104 +230,75 @@ teaching:
 #   group_by_year: False
 
 talks:
-  - year: July 2022
-    location: ICML Workshop on Responsible Decision Making in Dynamic Environments
-    details: "(\\href{https://docs.google.com/presentation/d/1Id6nDc6Q1kIPeB0VI0FqmJZcrwCY5p6rY-az50h2ArI/edit?usp=sharing}{Slides})"
-    url: https://responsibledecisionmaking.github.io/schedule/
-    title: (Contributed Talk) Reward Reports for Reinforcement Learning
-  - year: July 2022
-    location: Lead The Future
-#    details: "(\\href{}{Slides Available})"
-    title: (Invited Seminar) Synthesizing Robotic Controllers with Model-based Reinforcement Learning
-  - year: April 2022
-    location: University of Pennsylvania -- Perception, Action, and Learning Group
-    details: "(\\href{https://youtu.be/HxbeQI7hfo4}{Recording Available}, \\href{https://docs.google.com/presentation/d/1cxpA8gGNErShrf4Bz04wbgY_rao3pLgd/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    title: (Invited Seminar) Planning through Exploration and Exploitation in Model-based Reinforcement Learning
+  - year: June 2022
+    location: WhiRL Reading Group at Oxford
+    title: (Invited Talk) Transformers are Meta-Reinforcement Learners
+  - year: June 2022
+    location: Microsoft Research 
+    details: "(\\href{https://docs.google.com/presentation/d/1OH8RdJIf_wJknRjTsjXtOMGydcF8BjYbqXROFdtF7PQ/edit?usp=sharing}{Slides})"
+    title: (Reading Group) Transformers are Meta-Reinforcement Learners
     # url: 
-  - year: March 2022
-    location: Microsoft Research
-    details: "(\\href{https://docs.google.com/presentation/d/1_8tNoTyn0Oc9KZnATmRwM3TVEXavU7bq/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    title: (Job Talk) Legible Reinforcement Learning via Dynamics Models
   - year: February 2022
-    location: DeepMind Robotics All Hands
-#    details: "(\\href{https://docs.google.com/presentation/d/1uQKXAFAFzsS_Ucz-0hhPXyfruzETR987/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides Available})"
-    title: (Invited Seminar) The Challenges of Exploration for Offline Reinforcement Learning
-  - year: February 2022
-    location: Amazon Robotics \& AI
-    details: "(\\href{https://docs.google.com/presentation/d/1uQKXAFAFzsS_Ucz-0hhPXyfruzETR987/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-#    url:
-    title: (Job Talk) Synergy of Prediction and Control in Model-based Reinforcement Learning
-  - year: December 2021
-    location: Cruise AI
-#    details: "(\\href{https://www.youtube.com/watch?v=H5Q1UAEkhZY&t=1013s}{Talk available}, \\href{https://docs.google.com/presentation/d/14TZn_FpJHh1waDUYv5HBa7SmkyR8ji9d/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{slides})"
-    title: (Job Talk) Control-oriented Predictions in Model-based Reinforcement Learning
-  - year: March 2021
-    location: Cornell Robotics Seminar
-    details: "(\\href{https://www.youtube.com/watch?v=H5Q1UAEkhZY&t=1013s}{Recording Available}, \\href{https://docs.google.com/presentation/d/14TZn_FpJHh1waDUYv5HBa7SmkyR8ji9d/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    url: https://robotics.cornell.edu/category/seminars/spring-2021/
-    title: (Invited Seminar) Improving Model Predictive Control in Model-based Reinforcement Learning
-  - year: April 2020
-    location: UC Berkeley Semiautonomous Seminar
-    details: "(\\href{https://youtu.be/Z4EpSWfU48E}{Recording Available}, \\href{https://docs.google.com/presentation/d/1Q0QYHAyPa_dO8iUsOyDcudvDAwhl24Rc/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    url: https://sites.google.com/berkeley.edu/semiautonomousseminar/spring-2020
-    title: (Invited Seminar) Model Learning for Low-level Control in Robotics
-  - year: May 2019
-    location: UC Berkeley Semiautonomous Seminar
-    url: https://sites.google.com/view/cs-159-spring-2020/lectures
+    location: Microsoft
+    details: "(\\href{https://docs.google.com/presentation/d/15s0tGmfjjfjU2oiQL0ql3pr4SBbjbrXt1gFMfAhXVV4/edit?usp=sharing}{Slides})"
+    title: "(Invited Talk) PulseRL: Enabling Offline Reinforcement Learning for Digital Marketing Systems via Conservative Q-Learning"
+  - year: Feb 2018
+    location: Deep Learning Brazil Summer School
+    url: https://youtu.be/Ycggd_Bg6nY
+    title: Introduction to Deep Reinforcement Learning
+  
 
 
-advising:
-  - year: 2020
-    name: Mark Selden
-    details: "(UC Berkeley BS `22)"
-    url: https://www.linkedin.com/in/mark-selden/
-  - year: 2019
-    name: Albert Wilcox
-    details: "(UC Berkeley BS `22)"
-    url: https://www.linkedin.com/in/albert-wilcox-314898184
-  - year: 2019
-    name: Jason Zhou
-    details: "(UC Berkeley BS, MS '21 to \\href{https://matician.com/}{Matician})"
-    url: https://www.linkedin.com/in/albert-wilcox-314898184
-  - year: 2018
-    name: Felipe Campos
-    details: "(UC Berkeley BS '20 to \\href{https://armstrongrobotics.com/}{Armstrong Robotics})"
-    url: https://www.linkedin.com/in/howard-zhang-8366b1147
-  - year: 2018
-    name: Howard Zhang
-    details: "(UC Berkeley BS, MS'21 to UCLA PhD)"
-    url: https://www.linkedin.com/in/howard-zhang-8366b1147
+# advising:
+#   - year: 2020
+#     name: Mark Selden
+#     details: "(UC Berkeley BS `22)"
+#     url: https://www.linkedin.com/in/mark-selden/
+#   - year: 2019
+#     name: Albert Wilcox
+#     details: "(UC Berkeley BS `22)"
+#     url: https://www.linkedin.com/in/albert-wilcox-314898184
+#   - year: 2019
+#     name: Jason Zhou
+#     details: "(UC Berkeley BS, MS '21 to \\href{https://matician.com/}{Matician})"
+#     url: https://www.linkedin.com/in/albert-wilcox-314898184
+#   - year: 2018
+#     name: Felipe Campos
+#     details: "(UC Berkeley BS '20 to \\href{https://armstrongrobotics.com/}{Armstrong Robotics})"
+#     url: https://www.linkedin.com/in/howard-zhang-8366b1147
+#   - year: 2018
+#     name: Howard Zhang
+#     details: "(UC Berkeley BS, MS'21 to UCLA PhD)"
+#     url: https://www.linkedin.com/in/howard-zhang-8366b1147
 
 honors:
-  - title: Best Oral Presentation; Berkeley Sensor and Actuator Sensor Spring Review
-    year: 2022
-  - title: Best Student Paper Finalist; IEEE Symposium on Multi-Robot and Multi-Agent Systems
-    year: 2021
-  - title: Berkeley EECS Demetri Angelakos Memorial Achievement Award
-    year: 2021
-  - title: Heart to Humanity Eternal (H2H8) Pioneer
-    year: 2021
-  - title: NDSEG Graduate Research Fellowship Program Top 200
-    year: 2018
-  - title: NSF Graduate Research Fellowship Program Honorable Mention
-    year: 2017, 2018
-  - title: Berkeley EECS Department Fellowship
+  - title: "\\href{https://software.intel.com/en-us/ai-academy/ambassadors}{Intel AI Student Ambassador}"
+    year: 2018 -- 2020
+  - title: "Selected to attend to \\href{https://khipu.ai/}{Khipu}: Latin American Meeting for AI"
+    year: 2019
+  - title: 1st place at Data Science Challenge at EEF (Kaggle's Competition)
+    year: 2019
+  - title: 4th place at the RoboCup 3D Soccer Simulation Scientific Challenge (Sydney, Australia)
+    year: 2019
+  - title: 2nd place in the Soccer 3D Simulation League in the Latin America Robot Competition
+    year: 2015, 2016, 2017, 2018
+  - title: 6th, 9th, and 7th in the RoboCup 3D Soccer Simulation League
+    year: 2016, 2017, 2019
+  - title: 1st place Microsoft Code Competition at ITA
     year: 2017
-  - title: Eight undergraduate scholarships
+  - title: "2nd Place Quero Education Hackathon for \\href{https://github.com/mknarciso/lassie}{Lassie, the Learning Assistant}"
+    year: 2017
+  - title: "3rd Place at Quero Education Hackathon for \\href{https://github.com/AcademiaBarbaNegra}{Ahoy!}"
+    year: 2016
+  - title: Scientific Competitions in High School
     descr: |
-      Cornell Rowing Charles E. Courtney Award,
-      Tau Beta Pi Scholarship,
-      Southeastern New England Defense Industry Alliance STEM Scholarship 2016, 2017,
-      Cornell Athletics 400 Club Induction,
-      Beta Pi Induction,
-      Eta Kappu Nu Induction,
-      American Society of Engineering Education SMART Scholar Award
-    year: 2013 -- 2017
+      Physics (5 medals), Chemistry (8 medals), Astronomy (2 medals)
+    year: 2011 -- 2013
 
 
 
 all_publications:
-  name: "Lambert"
+  name: "Luckeciano Melo"
   file: all.bib
   sort_bib: True
   include_image: False
@@ -361,22 +371,16 @@ all_publications:
 #    instructor: YOU
 
 
-skills:
-  - title: Programming
-    details: Python
-  - title: Frameworks
-    details: JAX, NumPy, Pandas, PyTorch, SciPy
-  - title: Tools
-    details: Linux, vim, git, tmux
+# skills:
+#   - title: Programming
+#     details: Python
+#   - title: Frameworks
+#     details: JAX, NumPy, Pandas, PyTorch, SciPy
+#   - title: Tools
+#     details: Linux, vim, git, tmux
 
 
 extracur:
-  - details: Cornell Varisty Lightweight Rowing
-    year: 2013 -- 2017
-    url: https://cornellsun.com/2017/06/04/lightweight-rowing-wins-3rd-national-title-since-2014-to-cap-off-undefeated-season/
-  - details: Novice Rowing Coach
-    year: 2017 -- 2018
-    url: https://lightweightcrew.berkeley.edu
-  - details: Graduates for Engaged and Extended Scholarship in Computing and Engineering President
-    year: 2021 -- 2022
-    url: https://geesegraduates.org
+  - details: Seattle Quidditch Club (Chaser)
+    year: Present
+    url: https://www.facebook.com/seattlequidditchclub

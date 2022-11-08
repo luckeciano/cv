@@ -8,13 +8,18 @@
       ~< else >~
       \textbf{<< item.place>>},
       ~< endif >~
+      ~< if item.role >~
+      << item.role>>
+      ~< endif >~
       << item.location >>
+      \hfill << item.dates >> \par
         ~< if item.details >~
-        ~< for detail in item.details ->~
-            <<detail>>
-        ~<- endfor ->~
+          \begin{itemize}
+          ~< for detail in item.details ->~
+              \item[\textbullet]{<<detail>>}
+          ~<- endfor ->~
+          \end{itemize}
         ~< endif >~
-        \hfill << item.dates >> \par
     ~< endfor >~
   % \end{itemize}
 ~< endblock body >~
