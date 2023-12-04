@@ -38,7 +38,7 @@ order:
   - [service, Professional Activities]
   - [other, Other Academic and Research Experiences]
   # - [teaching, Teaching]
-  - [extracur, Extracurriculars]
+  # - [extracur, Extracurriculars]
 
 about: '\vspace{18pt} \small{
   I am a professional with a mixed background in research and engineering. In recent years, my main work applied Deep Learning and Reinforcement Learning algorithms 
@@ -75,18 +75,23 @@ other:
 
 reviewing:
   - details: Conference on Machine Learning (ICML)
-    year: 2022
+    year: 2022, 2023
     # sub_details: "(count is 1 unless labelled)"
   - details: Conference on Neural Information Processing Systems (NeurIPS)
-    year: 2022
+    year: 2022, 2023
   - details: Conference on Learning Representations (ICLR)
-    year: 2022*
+    year: 2022*, 2023, 2024
     sub_details: "(*Outstanding Reviewer)"
+  - details: Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+    year: 2024
 
 service:
   - details: Program Committee -- NeurIPS Offline Reinforcement Learning Workshop
-    year: 2021
+    year: 2021, 2022
     url: https://offline-rl-neurips.github.io/2021
+  - details: Program Committee -- NeurIPS Foundation Models for Decision Making Workshop
+    year: 2022, 2023
+    url: https://sites.google.com/view/fmdm-neurips23/
 
 
 repos:
@@ -105,6 +110,15 @@ repos:
 
 
 education:
+  - school: University of Oxford
+    location: Oxford, UK
+    degree: PhD in Computer Science
+    dates: 2023 -- Present
+    details:
+      - "Reinforcement Learning, Bayesian Methods, and Large Language Models"
+      - "Member of the \\href{https://oatml.cs.ox.ac.uk/}{Oxford Applied and Theoretical Machine Learning Group}"
+      - "Supervised by Yarin Gal and Alessandro Abate"
+
   - school: Aeronautics Institute of Technology (ITA)
     location: SP, Brazil
     degree: MSc. in EECS
@@ -127,21 +141,23 @@ education:
       - Computer Engineering Best Thesis Award
       - "Honors in Software Engineering in undergraduate and graduate departments"
 
-  - course: Other Relevant Courses
-    course_list:
-      - Machine Learning (Stanford, Coursera), Deep Learning Specialization (deeplearning.ai), NLP Specialization (deeplearning.ai),
-        RL Course (UCL, online), Deep Reinforcement Learning (CS 285, UC Berkeley, online), Multi-Task and Meta-Learning (CS 330, Stanford, online), Full Stack Deep Learning (online lectures)
+  # - course: Other Relevant Courses
+  #   course_list:
+  #     - Machine Learning (Stanford, Coursera), Deep Learning Specialization (deeplearning.ai), NLP Specialization (deeplearning.ai),
+  #       RL Course (UCL, online), Deep Reinforcement Learning (CS 285, UC Berkeley, online), Multi-Task and Meta-Learning (CS 330, Stanford, online), Full Stack Deep Learning (online lectures)
 
 industry:
   - place: Microsoft
     location: Seattle, WA
     role: "Applied Scientist | Bing Search |"
 #    title: Research Intern
-    dates: 2021 -- Present
+    dates: 2021 -- 2023
     # dates: June 2018 -- Sept 2018
     details:
-      - "Works with Multi-Modal Representation Learning for Web Data Semantic Understanding"
-      - "Leading efforts to scale HTML-based deep learning models to 400 billion documents"
+      - "Tech Leader for the Semantic Document project in the Bing Document Understanding Team"
+      - "Worked with Multi-Modal Representation Learning for Web Data Semantic Understanding"
+      - "Led the development of the first HTML-based deep learning model for Semantic Document extraction that scaled to 400 billion documents"
+      - "Developed a LLM-based pipeline for Semantic Document label extraction, reducing the cost of labeling data considerably and improving model quality by 20\\%"
       - "Responsibilities: Data Engineering, Data Analysis and Feature Engineering, Model Development, Deployment and Monitoring"
   - place: Microsoft
     location: Vancouver, BC
@@ -155,13 +171,14 @@ industry:
     location: Remote, Part-Time
     role: Head of RL Research |
 #    title: Research Intern
-    dates: 2019 -- 2021
+    dates: 2019 -- 2023
     # dates: June 2018 -- Sept 2018
     details:
       - "DeepFood Project: Worked implementing Deep Learning and RL models for Recommender Systems for a major player in food delivery. 
         Released an \\href{https://arxiv.org/abs/2010.07035}{open-source framework} to model, train, and evaluate RL agents for marketplaces, with automated off-policy and fairness evaluation.
         Developed a \\href{https://dl.acm.org/doi/10.1145/3383313.3412209}{contextual meta-bandit} approach for model selection."
       - "PulseRL project: Led a team of 3 student researchers to develop an offline RL agent (\\href{https://api.semanticscholar.org/CorpusID:249703190}{PulseRL}) based on the Conservative Q-Learning framework for Debt Collection. Deployed PulseRL in a production system to handle millions of users daily."
+      - "Recovery project: Led a team of 10 student researchers to develop contextual bandit agents trained in historical data for Debt negotiation, improving the performance in 50\\% of the user traffic. Under patent."
       - "Responsibilities: RL Core Research, RL applications with industry partners, Manage/Supervise teams of graduate students"
   - place: Amazon Web Services
     location: Cape Town, South Africa 
@@ -194,7 +211,7 @@ skills:
   - title: Programming
     details: "Python, C/C++; C\\# (.NET), Bash, SQL, Java, MATLAB"
   - title: Frameworks
-    details: Pytorch, TF/Keras, numpy/matplotlib/pandas/sklearn, Azure/AWS/GCP, Kubernetes
+    details: Pytorch, TF/Keras, numpy/matplotlib/pandas/sklearn/huggingface, Azure/AWS/GCP, Kubernetes
   - title: OS
     details: Linux, Windows, MacOS
 
@@ -380,7 +397,7 @@ all_publications:
 #     details: Linux, vim, git, tmux
 
 
-extracur:
-  - details: Seattle Quidditch Club (Chaser)
-    year: Present
-    url: https://www.facebook.com/seattlequidditchclub
+# extracur:
+#   - details: Seattle Quidditch Club (Chaser)
+#     year: 2022 - 2023
+#     url: https://www.facebook.com/seattlequidditchclub
