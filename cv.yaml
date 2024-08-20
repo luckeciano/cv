@@ -75,10 +75,10 @@ other:
 
 reviewing:
   - details: Conference on Machine Learning (ICML)
-    year: 2022, 2023
+    year: 2022, 2023, 2024
     # sub_details: "(count is 1 unless labelled)"
   - details: Conference on Neural Information Processing Systems (NeurIPS)
-    year: 2022, 2023
+    year: 2022, 2023, 2024
   - details: Conference on Learning Representations (ICLR)
     year: 2022*, 2023, 2024
     sub_details: "(*Outstanding Reviewer)"
@@ -95,6 +95,9 @@ service:
 
 
 repos:
+  - repo_url: https://github.com/luckeciano/BAL-PM
+    year: 2024
+    desc: Deep Bayesian Active Learning for Preference Modeling in Large Language Models
   - repo_url: https://github.com/luckeciano/transformers-metarl
     year: 2022
     desc: Transformers are Meta-Reinforcement Learners (ICML 2022)
@@ -115,7 +118,7 @@ education:
     degree: PhD in Computer Science
     dates: 2023 -- Present
     details:
-      - "Reinforcement Learning, Bayesian Methods, and Large Language Models"
+      - "Reinforcement Learning, Probabilistic Modeling, and Large Language Models"
       - "Member of the \\href{https://oatml.cs.ox.ac.uk/}{Oxford Applied and Theoretical Machine Learning Group}"
       - "Supervised by Yarin Gal and Alessandro Abate"
 
@@ -205,9 +208,9 @@ industry:
 
 skills:
   - title: Core Skills
-    details: Artificial Intelligence (Deep Learning / Reinforcement Learning), Software Engineering, Optimization, Robotics
+    details: Artificial Intelligence (Deep Learning / Reinforcement Learning), Probablistic Modeling, Software Engineering, Optimization, Robotics
   - title: Research Areas
-    details: Reinforcement Learning (Offline RL, Meta-RL), Representation Learning
+    details: Reinforcement Learning (Offline RL, Meta-RL, Inverse RL), Representation Learning
   - title: Programming
     details: "Python, C/C++; C\\# (.NET), Bash, SQL, Java, MATLAB"
   - title: Frameworks
