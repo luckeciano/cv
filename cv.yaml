@@ -34,6 +34,7 @@ order:
   - [repos, Repositories]
   # - [NEWPAGE, NEWPAGE]
   - [talks, Invited Talks]
+  - [advising, Advising]
   - [reviewing, Peer Review]
   - [service, Professional Activities]
   - [other, Other Academic and Research Experiences]
@@ -41,9 +42,7 @@ order:
   # - [extracur, Extracurriculars]
 
 about: '\vspace{18pt} \small{
-  I am a professional with a mixed background in research and engineering. In recent years, my main work applied Deep Learning and Reinforcement Learning algorithms 
-  for real-world scenarios at scale. My research curiosity is to \textbf{develop agents that learn behaviors through interaction, in an efficient, generalist, and adaptive way}.
-  I believe that we can achieve this with \textbf{meaningful semantic representations} and \textbf{world models}, aligned with \textbf{inductive biases on high-level cognition}. 
+    I am a professional with a mixed background in research and engineering. In recent years, my main work applied Deep Learning and Reinforcement Learning algorithms for real-world scenarios at scale. My research curiosity is to \textbf{develop agents that learn behaviors through interaction, in an efficient, generalist, and adaptive way}. I believe these agents emerge from \textbf{representation learning}, \textbf{world models}, and \textbf{intrinsically-motivated decision-making}. This motivates me to work in the intersection of (Model-Based) Reinforcement Learning, Probabilistic Modeling, and Foundation Models.
   }
 '
 
@@ -75,12 +74,12 @@ other:
 
 reviewing:
   - details: Conference on Machine Learning (ICML)
-    year: 2022, 2023, 2024
+    year: 2022, 2023, 2024, 2025
     # sub_details: "(count is 1 unless labelled)"
   - details: Conference on Neural Information Processing Systems (NeurIPS)
-    year: 2022, 2023, 2024
+    year: 2022, 2023, 2024, 2025
   - details: Conference on Learning Representations (ICLR)
-    year: 2022*, 2023, 2024
+    year: 2022*, 2023, 2024, 2025
     sub_details: "(*Outstanding Reviewer)"
   - details: Conference on Autonomous Agents and Multiagent Systems (AAMAS)
     year: 2024
@@ -269,27 +268,19 @@ talks:
   
 
 
-# advising:
-#   - year: 2020
-#     name: Mark Selden
-#     details: "(UC Berkeley BS `22)"
-#     url: https://www.linkedin.com/in/mark-selden/
-#   - year: 2019
-#     name: Albert Wilcox
-#     details: "(UC Berkeley BS `22)"
-#     url: https://www.linkedin.com/in/albert-wilcox-314898184
-#   - year: 2019
-#     name: Jason Zhou
-#     details: "(UC Berkeley BS, MS '21 to \\href{https://matician.com/}{Matician})"
-#     url: https://www.linkedin.com/in/albert-wilcox-314898184
-#   - year: 2018
-#     name: Felipe Campos
-#     details: "(UC Berkeley BS '20 to \\href{https://armstrongrobotics.com/}{Armstrong Robotics})"
-#     url: https://www.linkedin.com/in/howard-zhang-8366b1147
-#   - year: 2018
-#     name: Howard Zhang
-#     details: "(UC Berkeley BS, MS'21 to UCLA PhD)"
-#     url: https://www.linkedin.com/in/howard-zhang-8366b1147
+advising:
+  - year: 2024
+    name: "Bryan Oliveira"
+    details: "(MSc Student `24) - Representation Learning for Visual RL"
+    url: https://bryanoliveira.github.io/
+  - year: 2025
+    name: "Harry Xi"
+    details: "(MSc Student `25) - Bayesian Variational Preference Modeling"
+    url: https://harryzxi.github.io/
+  - year: 2025
+    name: "Samuel Dower"
+    details: "(MSc Student `25) - Uncertainty-Aware Reward Modeling with STARC Metrics"
+    url: https://www.linkedin.com/in/samuel-dower-128702234/
 
 honors:
   - title: "\\href{https://software.intel.com/en-us/ai-academy/ambassadors}{Intel AI Student Ambassador}"
