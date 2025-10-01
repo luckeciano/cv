@@ -1,0 +1,537 @@
+\documentclass[11pt,letter,sans,colorlinks,linkcolor=true]{moderncv}
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+\usepackage{lmodern}
+
+
+\definecolor{tab_highlight}{HTML}{f0c967}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\definecolor{color1}{rgb}{0.25,0.25,0.75}
+\definecolor{color2}{rgb}{0.25,0.25,0.25}
+\definecolor{color3}{rgb}{0.22,0.45,0.70}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[top=.75in, bottom=.75in, left=.7in, right=.7in]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+% \usepackage{ragged2e}
+% \newcolumntype{R}[1]{>{\RaggedLeft\hspace{0pt}}p{#1}}
+
+\usepackage{mathabx}
+
+\frenchspacing
+
+% \usepackage[backend=biber,style=ieee,defernumbers=true]{biblatex}
+% \usepackage[
+% backend=biber,style=publist,
+% sorting=ydmdnt,
+% %plauthorhandling=highlight,
+% % marginyear=true,
+% plnumbered=false,
+% maxnames=10,
+% nameorder=given-family
+% ]{biblatex}
+
+% Make the author's name bold in publications.
+% \DeclareNameFormat{author}{%
+%   \nameparts{#1}%
+%   \ifthenelse{\equal{\namepartfamily}{Amos}\or\equal{\namepartfamily}{Amos*}}%
+%     {\textbf{\ifblank{\namepartgiveni}{}{\namepartgiveni\space}\namepartfamily}}%
+%     {\ifblank{\namepartgiveni}{}{\namepartgiveni\space}\namepartfamily}%
+%   \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+%     {\space and\space}
+%     {\ifthenelse{\value{listcount}<\value{liststop}}%
+%       {\addcomma\space}
+%       {}
+%     }
+% }
+% Old, broken:
+% \DeclareNameFormat{author}{%
+%   \ifthenelse{\equal{#1}{Melo}}%
+%     {\textbf{\ifblank{#4}{}{#4\space}#1}}%
+%     {\ifblank{#4}{}{#4\space}#1}%
+%   \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+%     {\space and\space}
+%     {\ifthenelse{\value{listcount}<\value{liststop}}%
+%       {\addcomma\space}
+%       {}
+%     }
+% }
+
+\usepackage{lastpage}
+\cfoot{\addressfont\textcolor{gray}{\hypersetup{allcolors=gray}Page \thepage\ of \pageref{LastPage}}}
+
+\AtEndPreamble{\hypersetup{pdftitle={CV -- Luckeciano Melo}}}
+\name{Luckeciano}{Melo}
+%\title{Resumé title}
+%\address{street and number}{postcode city}{country}
+% \phone{}
+\email{luckeciano@gmail.com}
+\homepage{luckeciano.github.io}
+\social[linkedin]{luckeciano-melo}
+\social[twitter]{LuckecianoMelo}
+\social[github]{luckeciano}
+\extrainfo{\small Last updated on \today}
+%\photo[64pt][0.4pt]{picture}
+% \quote{Generated on \today}
+
+\AtBeginDocument{\hypersetup{colorlinks}}
+
+\begin{document}
+\hypersetup{allcolors=color3}
+\makecvtitle
+
+\vspace{-1cm}
+
+    \vspace{18pt} \small{ I am a professional with a mixed background in research and engineering. In recent years, my main work applied Deep Learning and Reinforcement Learning algorithms for real-world scenarios at scale. My research curiosity is to \textbf{develop agents that learn behaviors through interaction, in an efficient, generalist, and adaptive way}. I believe these agents emerge from \textbf{representation learning}, \textbf{world models}, and \textbf{intrinsically-motivated decision-making}. This motivates me to work in the intersection of (Model-Based) Reinforcement Learning, Probabilistic Modeling, and Foundation Models. }
+
+
+\section{Education}
+% \vspace{-2mm}
+% \begin{itemize}
+    % \item 
+    \textbf{PhD in Computer Science}, University of Oxford
+    \hfill 2023 -- Present \par
+Reinforcement Learning, Probabilistic Modeling, and Large Language Models \par
+Member of the \href{https://oatml.cs.ox.ac.uk/}{Oxford Applied and Theoretical Machine Learning Group} \par
+Supervised by Yarin Gal and Alessandro Abate \par
+
+
+
+
+  \vspace{3mm}
+    % \item 
+    \textbf{MSc. in EECS}, Aeronautics Institute of Technology (ITA)
+        (3.73/4.00)
+    \hfill 2017 -- 2019 \par
+Thesis: Imitation Learning and Meta-Learning for Optimizing Humanoid Robot Motions \par
+Best Master's Dissertation in Brazilian AI Awards 2019 (DATA-H) \par
+Winner of the V Best MSc Dissertation and PhD Thesis Contest in Robotics (Brazilian Robotics Society) \par
+
+
+
+
+  \vspace{3mm}
+    % \item 
+    \textbf{BSc. in Computer Engineering}, Aeronautics Institute of Technology (ITA)
+        (3.51/4.00)
+    \hfill 2014 -- 2018 \par
+Acceptance Rate: 2.3\% \par
+Thesis: A Deep Reinforcement Learning Method for Humanoid Kick \par
+Computer Engineering Best Thesis Award \par
+Honors in Software Engineering in undergraduate and graduate departments \par
+
+
+
+
+  \vspace{3mm}
+% \end{itemize}
+\vspace{-3mm}
+
+
+\section{Industry Experience}
+  % \begin{itemize}
+      \textbf{Microsoft},
+      Applied Scientist | Bing Search |
+      Seattle, WA
+      \hfill 2021 -- 2023 \par
+          \begin{itemize}
+\item[\textbullet]{Tech Leader for the Semantic Document project in the Bing Document Understanding Team}\item[\textbullet]{Worked with Multi-Modal Representation Learning for Web Data Semantic Understanding}\item[\textbullet]{Led the development of the first HTML-based deep learning model for Semantic Document extraction that scaled to 400 billion documents}\item[\textbullet]{Developed a LLM-based pipeline for Semantic Document label extraction, reducing the cost of labeling data considerably and improving model quality by 20\%}\item[\textbullet]{Responsibilities: Data Engineering, Data Analysis and Feature Engineering, Model Development, Deployment and Monitoring}\end{itemize}
+      \textbf{Microsoft},
+      Software Engineer | Data and Integration Services for D365 |
+      Vancouver, BC
+      \hfill 2020 -- 2021 \par
+          \begin{itemize}
+\item[\textbullet]{Worked building up a microservices-based infrastructure to enable data transfer and processing from SQL databases to Azure Data Lake at scale}\item[\textbullet]{Comprises delivering high quality, scalable code for asynchronous, distributed, and multi-threaded applications in the context of SaaS in the cloud}\item[\textbullet]{Other responsibilities: architectural discussions, code reviews, cluster and CI/CD pipelines management, livesite}\end{itemize}
+      \textbf{Deep Learning Brazil Research Lab},
+      Head of RL Research |
+      Remote, Part-Time
+      \hfill 2019 -- 2023 \par
+          \begin{itemize}
+\item[\textbullet]{DeepFood Project: Worked implementing Deep Learning and RL models for Recommender Systems for a major player in food delivery. Released an \href{https://arxiv.org/abs/2010.07035}{open-source framework} to model, train, and evaluate RL agents for marketplaces, with automated off-policy and fairness evaluation. Developed a \href{https://dl.acm.org/doi/10.1145/3383313.3412209}{contextual meta-bandit} approach for model selection.}\item[\textbullet]{PulseRL project: Led a team of 3 student researchers to develop an offline RL agent (\href{https://api.semanticscholar.org/CorpusID:249703190}{PulseRL}) based on the Conservative Q-Learning framework for Debt Collection. Deployed PulseRL in a production system to handle millions of users daily.}\item[\textbullet]{Recovery project: Led a team of 10 student researchers to develop contextual bandit agents trained in historical data for Debt negotiation, improving the performance in 50\% of the user traffic. Under patent.}\item[\textbullet]{Responsibilities: RL Core Research, RL applications with industry partners, Manage/Supervise teams of graduate students}\end{itemize}
+      \textbf{Amazon Web Services},
+      Software Development Engineer Intern |
+      Cape Town, South Africa
+      \hfill 2018 \par
+          \begin{itemize}
+\item[\textbullet]{Worked at the EC2 Core Platform, in the Host Placement Team}\item[\textbullet]{Developed a Continuous Deployment Pipeline for the instances metering service, based on several testing mechanisms to evaluate metering data}\end{itemize}
+      \textbf{VTEX},
+      Software Engineer Intern |
+      Rio de Janeiro, Brazil
+      \hfill 2018 \par
+          \begin{itemize}
+\item[\textbullet]{Developed several features for the platform infrastructure (logs and monitoring, caching, throttling systems), developed microservices and managed Kubernetes clusters.}\end{itemize}
+      \textbf{Pearson Education},
+      Software Engineer Intern |
+      Sao Paulo, Brazil
+      \hfill 2016 \par
+  % \end{itemize}
+
+
+\section{Relevant Technical Skills}
+\begin{tabular}{p{1in}p{5in}}
+    Core Skills & Artificial Intelligence (Deep Learning / Reinforcement Learning), Probablistic Modeling, Software Engineering, Optimization, Robotics
+ \\
+    Research Areas & Reinforcement Learning (Offline RL, Meta-RL, Inverse RL), Representation Learning
+ \\
+    Programming & Python, C/C++; C\# (.NET), Bash, SQL, Java, MATLAB
+ \\
+    Frameworks & Pytorch, TF/Keras, numpy/matplotlib/pandas/sklearn/huggingface, Azure/AWS/GCP, Kubernetes
+ \\
+    OS & Linux, Windows, MacOS
+ \\
+\end{tabular}
+
+
+\section{Honors \& Awards}
+% \begin{itemize}
+  \href{https://software.intel.com/en-us/ai-academy/ambassadors}{Intel AI Student Ambassador} \hfill 2018 -- 2020
+    \par
+  Selected to attend to \href{https://khipu.ai/}{Khipu}: Latin American Meeting for AI \hfill 2019
+    \par
+  1st place at Data Science Challenge at EEF (Kaggle's Competition) \hfill 2019
+    \par
+  4th place at the RoboCup 3D Soccer Simulation Scientific Challenge (Sydney, Australia) \hfill 2019
+    \par
+  2nd place in the Soccer 3D Simulation League in the Latin America Robot Competition \hfill 2015, 2016, 2017, 2018
+    \par
+  6th, 9th, and 7th in the RoboCup 3D Soccer Simulation League \hfill 2016, 2017, 2019
+    \par
+  1st place Microsoft Code Competition at ITA \hfill 2017
+    \par
+  2nd Place Quero Education Hackathon for \href{https://github.com/mknarciso/lassie}{Lassie, the Learning Assistant} \hfill 2017
+    \par
+  3rd Place at Quero Education Hackathon for \href{https://github.com/AcademiaBarbaNegra}{Ahoy!} \hfill 2016
+    \par
+  Scientific Competitions in High School \hfill 2011 -- 2013
+    \\ {\scriptsize \color{gray}{Physics (5 medals), Chemistry (8 medals), Astronomy (2 medals)
+} \par}
+% \end{itemize}
+
+
+\section{Publications}
+% \vspace{-8mm}
+% \hfill
+% Google Scholar ID:
+% \href{https://scholar.google.com/citations?user=b2aBi8UAAAAJ}{b2aBi8UAAAAJ}
+% \vspace{2mm}
+\vspace{-8.2mm}\hspace{30mm}
+[\href{https://scholar.google.com/citations?user=b2aBi8UAAAAJ}{Google Scholar},
+\href{https://www.semanticscholar.org/author/152671543}{Semantic Scholar}
+]\vspace{3mm}
+
+
+Representative publications that I am a primary author on are
+\colorbox{tab_highlight}{highlighted.}
+% [\href{https://github.com/bamos/cv/blob/master/publications/all.bib}{BibTeX}]
+
+% [<a href="https://scholar.google.com/citations?user={{ scholar_id }}">Google Scholar</a>]
+% [<a href="https://github.com/bamos/cv/blob/master/publications/{{ content.file }}">BibTeX</a>]
+
+% \renewcommand*{\bibfont}{\small}
+
+% \begin{refsection}[publications/all.bib]
+% \nocite{*}
+% \printbibliography[heading=none]
+% \end{refsection}
+
+\subsection{2025}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 1.\hspace*{1mm} && \textit{Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning}  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}}, \mbox{Alessandro Abate}, and \mbox{Yarin Gal} \\
+\cellcolor{tab_highlight} && (In Submission) 2025  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 2.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/2410.07812}{Temporal-Difference Variational Continual Learning} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}}, \mbox{Alessandro Abate}, and \mbox{Yarin Gal} \\
+\cellcolor{tab_highlight} && Advances in Neural Information Processing Systems (\textbf{NeurIPS}) 2025  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+ 3.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/2410.14038}{Sliding Puzzles Gym: A Scalable Benchmark for State Representation in Visual Reinforcement Learning} }  \\
+ && \mbox{Bryan Oliveira}, \mbox{Murilo Luz}, \mbox{Bruno Brand{\~a}o}, \mbox{Luana Martins}, \mbox{Telma Soares}, and \mbox{\textbf{Luckeciano Melo}} \\
+ && International Conference on Machine Learning (\textbf{ICML}) 2025  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+ 4.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/2502.12257}{InfoQuest: Evaluating Multi-Turn Dialogue Agents for Open-Ended Conversations with Hidden Context} }  \\
+ && \mbox{Bryan Oliveira}, \mbox{Luana Martins}, \mbox{Bruno Brand{\~a}o}, and \mbox{\textbf{Luckeciano Melo}} \\
+ && Workshop on Scaling Self-Improving Foundation Models at International Conference on Learning Representations (\textbf{ICLR}) 2025  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+ 5.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/2502.11250}{Uncertainty-Aware Step-wise Verification with Generative Reward Models} }  \\
+ && \mbox{Zihuiwen Ye}, \mbox{\textbf{Luckeciano Melo}}, \mbox{Younesse Kaddar}, \mbox{Phil Blunsom}, \mbox{Sam Staton}, and \mbox{Yarin Gal} \\
+ && Workshop on Quantify Uncertainty and Hallucination in Foundation Models: The Next Frontier in Reliable AI at International Conference on Learning Representations (\textbf{ICLR}) 2025  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2024}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 6.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/2406.10023}{Deep Bayesian Active Learning for Preference Modeling in Large Language Models} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}}, \mbox{Panagiotis Tigas}, \mbox{Alessandro Abate}, and \mbox{Yarin Gal} \\
+\cellcolor{tab_highlight} && Advances in Neural Information Processing Systems (\textbf{NeurIPS}) 2024  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2022}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 7.\hspace*{1mm} && \textit{\href{https://proceedings.mlr.press/v162/melo22a.html}{Transformers are Meta-Reinforcement Learners} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}} \\
+\cellcolor{tab_highlight} && International Conference on Machine Learning (\textbf{ICML}) 2022  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+ 8.\hspace*{1mm} && \textit{\href{https://ieeexplore.ieee.org/abstract/document/9817118}{Multi-Agent Reinforcement Learning for Strategic Decision Making and Control in Robotic Soccer through Self-Play} }  \\
+ && \mbox{Bruno Brand{\~a}o}, \mbox{Telma De Lima}, \mbox{Anderson Soares}, \mbox{\textbf{Luckeciano Melo}}, and \mbox{Marcos Maximo} \\
+ && IEEE Access 2022  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2021}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 9.\hspace*{1mm} && \textit{\href{https://offline-rl-neurips.github.io/2021/pdf/9.pdf}{PulseRL: Enabling Offline Reinforcement Learning for Digital Marketing Systems via Conservative Q-Learning} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo*}}, \mbox{Luana Martins*}, \mbox{Bryan Oliveira*}, \mbox{Bruno Brand{\~a}o}, \mbox{Douglas W Soares}, and \mbox{Telma Lima} \\
+\cellcolor{tab_highlight} && 2nd Offline Reinforcement Learning Workshop at Neural Information Processing Systems (\textbf{NeurIPS}) 2021 (*co-lead authors, \textbf{Oral Presentation}) \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 10.\hspace*{1mm} && \textit{\href{https://link.springer.com/article/10.1007/s10846-021-01355-9}{Learning Humanoid Robot Running Motions with Symmetry Incentive through Proximal Policy Optimization} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo*}}, \mbox{Dicksiano Melo*}, and \mbox{Marcos Maximo} \\
+\cellcolor{tab_highlight} && Journal of Intelligent and Robotic Systems 2021 (*co-lead authors) \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2020}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 11.\hspace*{1mm} && \textit{\href{https://offline-rl-neurips.github.io/pdf/21.pdf}{MARS-Gym: Offline Reinforcement Learning for Recommender Systems in Marketplaces} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo*}}, \mbox{Marlesson RO Santana*}, \mbox{Fernando HF Camargo*}, \mbox{Bruno Brand{\~a}o*}, \mbox{Anderson Soares}, \mbox{Renan M Oliveira}, and \mbox{Sandor Caetano} \\
+\cellcolor{tab_highlight} && Challenges of Real-World Reinforcement Learning at the 34th Conference on Neural Information Processing Systems (\textbf{NeurIPS}) 2020 (*co-lead authors, \textbf{Oral Presentation}) \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 12.\hspace*{1mm} && \textit{\href{https://dl.acm.org/doi/10.1145/3383313.3412209}{Contextual Meta-Bandit for Recommender Systems Selection} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo*}}, \mbox{Marlesson RO Santana*}, \mbox{Fernando HF Camargo*}, \mbox{Bruno Brand{\~a}o*}, \mbox{Anderson Soares}, \mbox{Renan M Oliveira}, and \mbox{Sandor Caetano} \\
+\cellcolor{tab_highlight} && ACM Conference on Recommender Systems 2020 (*co-lead authors) \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2019}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 13.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/1910.10232}{Bottom-Up Meta-Policy Search} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}} and \mbox{Marcos Maximo} \\
+\cellcolor{tab_highlight} && Deep Reinforcement Learning Workshop in the 33rd Conference on Neural Information Processing Systems (\textbf{NeurIPS}) 2019  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 14.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/1910.10620}{Learning Humanoid Robot Running Skills through Proximal Policy Optimization} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}} and \mbox{Marcos Maximo} \\
+\cellcolor{tab_highlight} && Latin America Robotics Symposium (LARS) 2019 (\textbf{LARS 2019 Best Paper Award}) \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 15.\hspace*{1mm} && \textit{\href{https://api.semanticscholar.org/CorpusID:214699727}{Housing Prices Prediction with a Deep Learning and Random Forest Ensemble} }  \\
+\cellcolor{tab_highlight} && \mbox{Bruno Klaus de Aquino Afonso}, \mbox{\textbf{Luckeciano Melo}}, \mbox{Willian Oliveira}, \mbox{Samuel Bruno da Silva Sousa}, and \mbox{Lilian Berton} \\
+\cellcolor{tab_highlight} && ENIAC 2019  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 16.\hspace*{1mm} && \textit{\href{https://tinyurl.com/3b92dzjz}{A experiencia do grupo academico ITAndroids (The experience from ITAndroids academic group)} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}}, \mbox{Julio Cesar Filho}, \mbox{Felipe Pinheiro}, and \mbox{Maximo Marcos} \\
+\cellcolor{tab_highlight} && Robotica Educacional: experiencias inovadoras na educacao brasileira (Educational Robotics: innovative experiences in brazilian education). Book Chapter (Penso Publisher) 2019  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2018}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 17.\hspace*{1mm} && \textit{\href{https://arxiv.org/abs/1901.00270}{Learning Humanoid Motions through Deep Neural Networks} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{Luckeciano Melo}}, \mbox{Marcos Maximo}, and \mbox{Adilson Marques Cunha} \\
+\cellcolor{tab_highlight} && Brazilian Humanoid Robot Workshop (BRAHUR) 2018  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+
+\section{Repositories}
+% \begin{tabular}{p{0.5in}p{5in}}
+    \href{https://github.com/luckeciano/BAL-PM}{luckeciano/BAL-PM} | $\bigstar$4 |
+    \emph{Deep Bayesian Active Learning for Preference Modeling in Large Language Models} \hfill
+    2024 \par
+    \href{https://github.com/luckeciano/transformers-metarl}{luckeciano/transformers-metarl} | $\bigstar$42 |
+    \emph{Transformers are Meta-Reinforcement Learners (ICML 2022)} \hfill
+    2022 \par
+    \href{https://github.com/dlb-rl/pulse-rl}{dlb-rl/pulse-rl} | $\bigstar$8 |
+    \emph{PulseRL -- Enabling Offline Reinforcement Learning for Digital Marketing Systems via Conservative Q-Learning.} \hfill
+    2021 \par
+    \href{https://github.com/deeplearningbrasil/mars-gym}{deeplearningbrasil/mars-gym} | $\bigstar$49 |
+    \emph{MARS-Gym -- a benchmark framework for modeling, training, and evaluating RL-based recommender systems for marketplaces.} \hfill
+    2020 \par
+    \href{https://github.com/marlesson/meta-bandit-selector}{marlesson/meta-bandit-selector} | $\bigstar$9 |
+    \emph{Contextual Meta-Bandit for Recommender Systems Selection} \hfill
+    2020 \par
+% \end{tabular}
+
+
+\section{Invited Talks}
+% \begin{tabular}{p{0.5in}p{5in}}
+      WhiRL Reading Group at Oxford
+  \hfill June 2022 \\
+   {\scriptsize
+        \textit{\color{gray}{(Invited Talk) Transformers are Meta-Reinforcement Learners}}
+      } \vspace{3mm}
+ \\
+      Microsoft Research
+      \,\, {\scriptsize
+        \color{gray}{(\href{https://docs.google.com/presentation/d/1OH8RdJIf_wJknRjTsjXtOMGydcF8BjYbqXROFdtF7PQ/edit?usp=sharing}{Slides})}
+      }
+  \hfill June 2022 \\
+   {\scriptsize
+        \textit{\color{gray}{(Reading Group) Transformers are Meta-Reinforcement Learners}}
+      } \vspace{3mm}
+ \\
+      Microsoft
+      \,\, {\scriptsize
+        \color{gray}{(\href{https://docs.google.com/presentation/d/15s0tGmfjjfjU2oiQL0ql3pr4SBbjbrXt1gFMfAhXVV4/edit?usp=sharing}{Slides})}
+      }
+  \hfill February 2022 \\
+   {\scriptsize
+        \textit{\color{gray}{(Invited Talk) PulseRL: Enabling Offline Reinforcement Learning for Digital Marketing Systems via Conservative Q-Learning}}
+      } \vspace{3mm}
+ \\
+      \href{https://youtu.be/Ycggd_Bg6nY}{Deep Learning Brazil Summer School}
+      \,\, {\scriptsize
+        \color{gray}{}
+      }
+  \hfill Feb 2018 \\
+   {\scriptsize
+        \textit{\color{gray}{Introduction to Deep Reinforcement Learning}}
+      } \vspace{3mm}
+ \\
+% \end{tabular}
+
+
+\section{Advising}
+% \begin{tabular}{p{0.5in}p{5in}}
+      \href{https://bryanoliveira.github.io/}{Bryan Oliveira} (MSc Student `24) - Representation Learning for Visual RL
+    \hfill 2024 \\
+      \href{https://harryzxi.github.io/}{Harry Xi} (MSc Student `25) - Bayesian Variational Preference Modeling
+    \hfill 2025 \\
+      \href{https://www.linkedin.com/in/samuel-dower-128702234/}{Samuel Dower} (MSc Student `25) - Uncertainty-Aware Reward Modeling with STARC Metrics
+    \hfill 2025 \\
+% \end{tabular}
+
+
+\section{Peer Review}
+% \begin{tabular}{p{0.5in}p{5in}}
+      Conference on Machine Learning (ICML)
+        \hfill 2022, 2023, 2024, 2025 \\
+      Conference on Neural Information Processing Systems (NeurIPS)
+        \hfill 2022, 2023, 2024, 2025 \\
+      Conference on Learning Representations (ICLR)
+      % \par \vspace{-1mm} {\scriptsize
+      \,\, {\scriptsize
+        \color{gray}{(*Outstanding Reviewer)}
+      } % \\[2mm]
+        \hfill 2022*, 2023, 2024, 2025 \\
+      Conference on Autonomous Agents and Multiagent Systems (AAMAS)
+        \hfill 2024 \\
+% \end{tabular}
+
+
+\section{Professional Activities}
+% \begin{tabular}{p{0.5in}p{5in}}
+      \href{https://offline-rl-neurips.github.io/2021}{Program Committee -- NeurIPS Offline Reinforcement Learning Workshop}
+        \hfill 2021, 2022 \\
+      \href{https://sites.google.com/view/fmdm-neurips23/}{Program Committee -- NeurIPS Foundation Models for Decision Making Workshop}
+        \hfill 2022, 2023 \\
+% \end{tabular}
+
+
+\section{Other Academic and Research Experiences}
+% \vspace{-2mm}
+% \begin{itemize}
+    % \item 
+    \textbf{ITAndroids (ITA Robotics Research Lab)}
+    \hfill 2015 -- 2019 \par
+    \begin{itemize}
+\item[\textbullet]{Worked on Soccer 3D strategy. Worked on build up the C++ base code team in the first year. Developed algorithms to Path Planning, Robot`s Active Vision and Positioning/Marking System.}
+\item[\textbullet]{Taught fresh students in Software Engineering}
+\item[\textbullet]{Developed humanoid robot skills for RoboCup 3D Soccer Simulation environment, using Deep Reinforcement Learning, Imitation Learning, Meta-Learning and Evolution Strategies}
+    \end{itemize}
+  \vspace{3mm}
+    % \item 
+    \textbf{Undergraduate Research Mentor | ITA}
+    \hfill 2018 \par
+    \begin{itemize}
+\item[\textbullet]{Mentored a student in a research project to develop policies for multi-agent positioning using imitation learning from human feedback.}
+    \end{itemize}
+  \vspace{3mm}
+    % \item 
+    \textbf{Teaching Assistant (Instructor)}
+    \hfill 2018 \par
+    \begin{itemize}
+\item[\textbullet]{Taught Deep Learning for graduate students in a course called CT-221: Neural Networks}
+    \end{itemize}
+  \vspace{3mm}
+    % \item 
+    \textbf{Software Engineering Research Group (ITA)}
+    \hfill 2017 \par
+    \begin{itemize}
+\item[\textbullet]{Worked using Deep Learning for Facial Recognition in Biometric systems, replacing an Eigenfaces` solution with CNNs, improving Identification Rate from 40\% to 90\%}
+\item[\textbullet]{Worked in feature engineering for credit card anti-fraud systems}
+    \end{itemize}
+  \vspace{3mm}
+    % \item 
+    \textbf{Undergraduate Research at Software Engineering Research Group (ITA)}
+    \hfill 2014 -- 2016 \par
+    \begin{itemize}
+\item[\textbullet]{Worked on Software Engineering research for agile methodologies.}
+    \end{itemize}
+  \vspace{3mm}
+% \end{itemize}
+\vspace{-3mm}
+
+
+
+
+\end{document}
