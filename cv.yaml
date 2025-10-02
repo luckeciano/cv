@@ -53,10 +53,6 @@ other:
       - "Worked on Soccer 3D strategy. Worked on build up the C++ base code team in the first year. Developed algorithms to Path Planning, Robot`s Active Vision and Positioning/Marking System." 
       - Taught fresh students in Software Engineering
       - Developed humanoid robot skills for RoboCup 3D Soccer Simulation environment, using Deep Reinforcement Learning, Imitation Learning, Meta-Learning and Evolution Strategies
-  - title: Undergraduate Research Mentor | ITA
-    dates: 2018
-    details: 
-      - Mentored a student in a research project to develop policies for multi-agent positioning using imitation learning from human feedback.
   - title: Teaching Assistant (Instructor)
     dates: 2018
     details:
@@ -115,7 +111,7 @@ education:
   - school: University of Oxford
     location: Oxford, UK
     degree: PhD in Computer Science
-    dates: 2023 -- Present
+    dates: 2023 -- Dec 2026 (Expected)
     details:
       - "Reinforcement Learning, Probabilistic Modeling, and Large Language Models"
       - "Member of the \\href{https://oatml.cs.ox.ac.uk/}{Oxford Applied and Theoretical Machine Learning Group}"
